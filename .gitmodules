@@ -1,0 +1,3 @@
+[submodule "imageMo"]
+	path = imageMo
+	url = https://github.com/faber0709/D_ImagePicker.git
