@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05138B3C486F73C97AC00B94 /* libPods-MytTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 353CD7A98916857097596FE7 /* libPods-MytTest.a */; };
 		1BFC92922269BC1B00180A94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFC92912269BC1B00180A94 /* AppDelegate.m */; };
 		1BFC92952269BC1B00180A94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFC92942269BC1B00180A94 /* ViewController.m */; };
 		1BFC92982269BC1B00180A94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BFC92962269BC1B00180A94 /* Main.storyboard */; };
@@ -42,6 +43,9 @@
 		1BFC92F62269C13000180A94 /* D_photoTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = D_photoTool.h; sourceTree = "<group>"; };
 		1BFC92F82269C13000180A94 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		1BFC92F92269C13000180A94 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		353CD7A98916857097596FE7 /* libPods-MytTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MytTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6219551CD239B30CC2E572E7 /* Pods-MytTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MytTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MytTest/Pods-MytTest.debug.xcconfig"; sourceTree = "<group>"; };
+		9BC38CFB2C5942224972FFDD /* Pods-MytTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MytTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-MytTest/Pods-MytTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05138B3C486F73C97AC00B94 /* libPods-MytTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +65,8 @@
 			children = (
 				1BFC928F2269BC1B00180A94 /* MytTest */,
 				1BFC928E2269BC1B00180A94 /* Products */,
+				46359840E649717CF1091669 /* Pods */,
+				74807C8EBF04F2B3DCE8FFDB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -160,6 +167,23 @@
 			path = Assets;
 			sourceTree = "<group>";
 		};
+		46359840E649717CF1091669 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6219551CD239B30CC2E572E7 /* Pods-MytTest.debug.xcconfig */,
+				9BC38CFB2C5942224972FFDD /* Pods-MytTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		74807C8EBF04F2B3DCE8FFDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				353CD7A98916857097596FE7 /* libPods-MytTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1BFC92A32269BC1E00180A94 /* Build configuration list for PBXNativeTarget "MytTest" */;
 			buildPhases = (
+				381EA56DDB18EFA6DE9721E6 /* [CP] Check Pods Manifest.lock */,
 				1BFC92892269BC1B00180A94 /* Sources */,
 				1BFC928A2269BC1B00180A94 /* Frameworks */,
 				1BFC928B2269BC1B00180A94 /* Resources */,
@@ -224,6 +249,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		381EA56DDB18EFA6DE9721E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MytTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1BFC92892269BC1B00180A94 /* Sources */ = {
@@ -372,6 +422,7 @@
 		};
 		1BFC92A42269BC1E00180A94 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6219551CD239B30CC2E572E7 /* Pods-MytTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -389,6 +440,7 @@
 		};
 		1BFC92A52269BC1E00180A94 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BC38CFB2C5942224972FFDD /* Pods-MytTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
