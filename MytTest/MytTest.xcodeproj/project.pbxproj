@@ -27,22 +27,6 @@
 		1BFC929C2269BC1E00180A94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BFC929E2269BC1E00180A94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BFC929F2269BC1E00180A94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1BFC92E52269C13000180A94 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		1BFC92E72269C13000180A94 /* D_ImageBrowserVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = D_ImageBrowserVC.m; sourceTree = "<group>"; };
-		1BFC92E82269C13000180A94 /* D_ImageBrowserVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = D_ImageBrowserVC.h; sourceTree = "<group>"; };
-		1BFC92EA2269C13000180A94 /* D_ImagePickerModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = D_ImagePickerModel.m; sourceTree = "<group>"; };
-		1BFC92EB2269C13000180A94 /* D_ImagePickerModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = D_ImagePickerModel.h; sourceTree = "<group>"; };
-		1BFC92ED2269C13000180A94 /* D_imagePickerCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = D_imagePickerCollectionCell.h; sourceTree = "<group>"; };
-		1BFC92EE2269C13000180A94 /* D_imagePickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = D_imagePickerView.m; sourceTree = "<group>"; };
-		1BFC92EF2269C13000180A94 /* D_ImageBrowserCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = D_ImageBrowserCollectionCell.h; sourceTree = "<group>"; };
-		1BFC92F02269C13000180A94 /* D_imagePickerCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = D_imagePickerCollectionCell.m; sourceTree = "<group>"; };
-		1BFC92F12269C13000180A94 /* D_imagePickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = D_imagePickerView.h; sourceTree = "<group>"; };
-		1BFC92F22269C13000180A94 /* D_ImageBrowserCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = D_ImageBrowserCollectionCell.m; sourceTree = "<group>"; };
-		1BFC92F42269C13000180A94 /* D_photoTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = D_photoTool.m; sourceTree = "<group>"; };
-		1BFC92F52269C13000180A94 /* D_Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = D_Macros.h; sourceTree = "<group>"; };
-		1BFC92F62269C13000180A94 /* D_photoTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = D_photoTool.h; sourceTree = "<group>"; };
-		1BFC92F82269C13000180A94 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		1BFC92F92269C13000180A94 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		353CD7A98916857097596FE7 /* libPods-MytTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MytTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6219551CD239B30CC2E572E7 /* Pods-MytTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MytTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MytTest/Pods-MytTest.debug.xcconfig"; sourceTree = "<group>"; };
 		9BC38CFB2C5942224972FFDD /* Pods-MytTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MytTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-MytTest/Pods-MytTest.release.xcconfig"; sourceTree = "<group>"; };
@@ -81,7 +65,6 @@
 		1BFC928F2269BC1B00180A94 /* MytTest */ = {
 			isa = PBXGroup;
 			children = (
-				1BFC92E32269C13000180A94 /* D_ImagePicker */,
 				1BFC92902269BC1B00180A94 /* AppDelegate.h */,
 				1BFC92912269BC1B00180A94 /* AppDelegate.m */,
 				1BFC92932269BC1B00180A94 /* ViewController.h */,
@@ -93,78 +76,6 @@
 				1BFC929F2269BC1E00180A94 /* main.m */,
 			);
 			path = MytTest;
-			sourceTree = "<group>";
-		};
-		1BFC92E32269C13000180A94 /* D_ImagePicker */ = {
-			isa = PBXGroup;
-			children = (
-				1BFC92E42269C13000180A94 /* Classes */,
-				1BFC92F72269C13000180A94 /* Assets */,
-			);
-			name = D_ImagePicker;
-			path = son/D_ImagePicker;
-			sourceTree = "<group>";
-		};
-		1BFC92E42269C13000180A94 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				1BFC92E52269C13000180A94 /* .gitkeep */,
-				1BFC92E62269C13000180A94 /* Controller */,
-				1BFC92E92269C13000180A94 /* Model */,
-				1BFC92EC2269C13000180A94 /* View */,
-				1BFC92F32269C13000180A94 /* Tool */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		1BFC92E62269C13000180A94 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				1BFC92E72269C13000180A94 /* D_ImageBrowserVC.m */,
-				1BFC92E82269C13000180A94 /* D_ImageBrowserVC.h */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		1BFC92E92269C13000180A94 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				1BFC92EA2269C13000180A94 /* D_ImagePickerModel.m */,
-				1BFC92EB2269C13000180A94 /* D_ImagePickerModel.h */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		1BFC92EC2269C13000180A94 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				1BFC92ED2269C13000180A94 /* D_imagePickerCollectionCell.h */,
-				1BFC92EE2269C13000180A94 /* D_imagePickerView.m */,
-				1BFC92EF2269C13000180A94 /* D_ImageBrowserCollectionCell.h */,
-				1BFC92F02269C13000180A94 /* D_imagePickerCollectionCell.m */,
-				1BFC92F12269C13000180A94 /* D_imagePickerView.h */,
-				1BFC92F22269C13000180A94 /* D_ImageBrowserCollectionCell.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		1BFC92F32269C13000180A94 /* Tool */ = {
-			isa = PBXGroup;
-			children = (
-				1BFC92F42269C13000180A94 /* D_photoTool.m */,
-				1BFC92F52269C13000180A94 /* D_Macros.h */,
-				1BFC92F62269C13000180A94 /* D_photoTool.h */,
-			);
-			path = Tool;
-			sourceTree = "<group>";
-		};
-		1BFC92F72269C13000180A94 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				1BFC92F82269C13000180A94 /* .gitkeep */,
-				1BFC92F92269C13000180A94 /* Images.xcassets */,
-			);
-			path = Assets;
 			sourceTree = "<group>";
 		};
 		46359840E649717CF1091669 /* Pods */ = {
