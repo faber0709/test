@@ -14,9 +14,9 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "273B0E8661E6A5E88745109D5B251009"
-               BuildableName = "libPods-MytTest.a"
-               BlueprintName = "Pods-MytTest"
+               BlueprintIdentifier = "2F9F6914B39201C62E99807BBF85EE4C"
+               BuildableName = "libD_ImagePicker.a"
+               BlueprintName = "D_ImagePicker"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

@@ -1,0 +1,22 @@
+{
+  "name": "D_ImagePicker",
+  "version": "0.1.0",
+  "summary": "A short description of D_ImagePicker.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/faber0709/D_ImagePicker.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dingpengfei": "faber0709@163.com"
+  },
+  "source": {
+    "git": "https://github.com/faber0709/D_ImagePicker.git"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "D_ImagePicker/Classes/**/*",
+  "resources": "D_ImagePicker/Assets/*.xcassets"
+}

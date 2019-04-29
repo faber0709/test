@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: 4f0d6f638bce4caaab6cd64966f26986e59fa691
+PODS:
+  - D_ImagePicker (0.1.0)
+
+DEPENDENCIES:
+  - D_ImagePicker (from `MytTest/son`)
+
+EXTERNAL SOURCES:
+  D_ImagePicker:
+    :path: MytTest/son
+
+SPEC CHECKSUMS:
+  D_ImagePicker: 2069961fa2f5b9e4b21e3e1a284f11e47b46f715
+
+PODFILE CHECKSUM: ead63777d3d1a9c8de214cdcafd63a9227477586
 
 COCOAPODS: 1.5.3
