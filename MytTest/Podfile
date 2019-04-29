@@ -7,4 +7,5 @@ target 'MytTest' do
 
   # Pods for MytTest
 
+pod 'D_ImagePicker', :path => 'MytTest/son'
 end
